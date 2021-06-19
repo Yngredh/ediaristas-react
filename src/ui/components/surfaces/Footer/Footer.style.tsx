@@ -1,5 +1,5 @@
-import { experimentalStyled as styled } from "@material-ui/core";
-import { Container, Typography, Box } from "@material-ui/core";
+import { experimentalStyled as styled } from "@material-ui/core/styles";
+import { Container, Typography } from "@material-ui/core";
 
 export const FooterStyled = styled("footer")`
   background-color: ${({ theme }) => theme.palette.primary.main};
@@ -30,7 +30,6 @@ export const AppList = styled("ul")`
   list-style-type: none;
   padding: 0;
   gap: ${({ theme }) => theme.spacing()};
-
   img {
     width: 122px;
   }

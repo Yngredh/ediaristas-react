@@ -12,7 +12,7 @@ const Footer = () => {
     <FooterStyled>
       <FooterContainer>
         <Box sx={{ maxWidth: "400px" }}>
-          <FooterTitle>Quem Somos?</FooterTitle>
+          <FooterTitle>Quem somos</FooterTitle>
           <Typography variant={"body2"} sx={{ mt: 2 }}>
             E-Diaristas te ajuda a encontrar um profissional perfeito para
             realizar a limpeza da sua casa. Garantimos a melhor profissional com
@@ -22,7 +22,7 @@ const Footer = () => {
         </Box>
 
         <div>
-          <FooterTitle>Baixe nosso aplicativos</FooterTitle>
+          <FooterTitle>Baixe nossos aplicativos</FooterTitle>
           <AppList>
             <li>
               <a href={"/"} target={"_blank"} rel={"noopener noreferrer"}>
